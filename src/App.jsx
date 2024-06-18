@@ -27,14 +27,11 @@ function App() {
         <SearchBar query={query} setQuery={setQuery}/>
         <div className="flex flex-wrap gap-4">
           {filteredColors.map(color =>(
-            <ColorItem key={color.name} color={color}/>
+        <ColorItem key={color.name} color={color}/>
           ))}
         </div> 
       </div>
-        
 
-        
-        
         </>
     )
 }
