@@ -22,7 +22,7 @@ function App() {
       <>
       <div className="p-5">
         <h1 className="text-3xl font-bold underline mb-5">
-          Colors World
+          Colors Table
         </h1>
         <SearchBar query={query} setQuery={setQuery}/>
         <div className="flex flex-wrap gap-4">
